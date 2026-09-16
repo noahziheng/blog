@@ -1,0 +1,17 @@
+{
+  "name": "Noah's Blog (Hexo static site)",
+  "install": "python3 --version",
+  "terminals": [
+    {
+      "name": "blog-server",
+      "command": "python3 .cursor/serve.py",
+      "description": "Serves the pre-built Hexo blog at http://localhost:4000/blog/ (assets use an absolute /blog/ prefix)."
+    }
+  ],
+  "ports": [
+    {
+      "name": "blog",
+      "port": 4000
+    }
+  ]
+}
